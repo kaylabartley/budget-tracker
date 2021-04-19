@@ -47,13 +47,13 @@ const config = {
       name: "Budget Tracker",
       short_name: "Foodies",
       description: "An app that allows you to track your budget.",
-      start_url: "../public/index.html",
+      start_url: "../index.html",
       background_color: "#dddddd",
       theme_color: "#6666ff",
       fingerprints: false,
       inject: false,
       icons: [{
-        src: path.resolve("icons/icon-512x512.png"),
+        src: path.resolve("public/icons/icon-512x512.png"),
         sizes: [72, 96, 128, 144, 152, 192, 3854, 512],
         destination: path.join("assets", "icons")
       }]

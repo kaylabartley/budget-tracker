@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "start:dev": "webpack-dev-server",
+     "start:dev": "webpack serve",
     "lite-server": "lite-server",
     "webpack": "webpack --watch",
     "build": "webpack"
